@@ -93,7 +93,7 @@
 											</div>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/crime.png" alt="" /></a>
+											<a href="https://github.com/ruhz3/crime-predict" class="image"><img src="images/crime.png" alt="" /></a>
 											<div class="inner">
 												<h4>Crime Prediction and Patrol Algorithm</h4>
 												<h6 style="color:#4acaa8;">Sci-kit learn, MySQL, Python, Naver Map API</h6>
@@ -111,7 +111,7 @@
 											</div>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/unity3d.jpg" alt="" /></a>
+											<a href="https://github.com/ruhz3/survival-game" class="image"><img src="images/unity3d.jpg" alt="" /></a>
 											<div class="inner">
 												<h4>Survival Shooting Game</h4>
 												<h6 style="color:#4acaa8;">Unity3D, C#</h6>
@@ -120,7 +120,7 @@
 											</div>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/rasp2.png" alt="" /></a>
+											<a href="https://github.com/ruhz3/rbpi-ttt" class="image"><img src="images/rasp2.png" alt="" /></a>
 											<div class="inner">
 												<h4>Online Tic-Tac-Toe, Raspberry Pi</h4>
 												<h6 style="color:#4acaa8;">Linux, C/C++, Qt, Socket</h6>
