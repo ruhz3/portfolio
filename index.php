@@ -68,10 +68,10 @@
 									<h3>Interests</h3>
 									<ul class="feature-icons">
 										<li class="icon solid fa-code">App Programming</li>
-										<li class="icon solid fa-puzzle-piece">Algorithms</li>
-										<li class="icon solid fa-image">Image Processing</li>
-										<li class="icon solid fa-brain">Machine Learning</li>
+										<li class="icon solid fa-puzzle-piece">Math/Algorithms</li>
 										<li class="icon solid fa-eye">Computer Vision</li>
+										<li class="icon solid fa-brain">Machine Learning</li>
+										<li class="icon solid fa-database">Data Science</li>
 										<li class="icon solid fa-gamepad">Game Development</li>
 										
 									</ul>
