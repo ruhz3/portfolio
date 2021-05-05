@@ -72,9 +72,11 @@
 										<li class="icon solid fa-eye">Computer Vision</li>
 										<li class="icon solid fa-brain">Machine Learning</li>
 										<li class="icon solid fa-database">Data Science</li>
-										<li class="icon solid fa-gamepad">Game Development</li>
-										
+										<li class="icon solid fa-gamepad">Game Development</li>	
 									</ul>
+									<table>
+										
+									</table>
 								</div>
 							</section>
 
@@ -99,6 +101,15 @@
 												<h6 style="color:#4acaa8;">Sci-kit learn, MySQL, Python, Naver Map API</h6>
 												<p>Crime, environment and local data are put into the database after preprocessing. Using machine learning, find crime prone places. Based on this points, compute a patrol route that minimizes the initial action time.</p>
 												<h6 style="text-align:right;">Capstone Design, (김동연, 류형주, 김영서), 2021</h6>
+											</div>
+										</article>
+										<article>
+											<a href="" class="image"><img src="images/web.png" alt="" /></a>
+											<div class="inner">
+												<h4>Student's Work Exhibition Website</h4>
+												<h6 style="color:#4acaa8;">HTML5, CSS, JavaScript, JQuery</h6>
+												<p>University department's official website provides too typical information. Therefore, we created a website that allows foreigner to get closer to what students actually study. </p>
+												<h6 style="text-align:right;">Capstone Design, (김근남, 류형주, 이영주, 류영석), 2021</h6>
 											</div>
 										</article>
 										<article>
