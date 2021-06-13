@@ -5,163 +5,189 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Ryu</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
 
-		<!-- Header -->
-			<section id="header">
-				<header>
-					<span class="image avatar"><img src="images/profile3.jpg" alt="" /></span>
-					<h1 id="logo"><a href="#">Ryu</a></h1>
-					<p>One must live the way one thinks<br>
-					or end up thinking the way one has lived</p>
-				</header>
-				<nav id="nav">
-					<ul>
-						<li><a href="#one" class="active">Hello</a></li>
-						<li><a href="#two">Interests</a></li>
-						<li><a href="#three">Works</a></li>
-						<li><a href="#four">Imagines</a></li>
-					</ul>
-				</nav>
-				<footer>
-					<ul class="icons">
-						<li><a href="https://github.com/ruhz3" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a href="https://hhlab.tistory.com/" class="icon solid fa-blog"><span class="label">Blog</span></a></li>
-						<li><a href="https://www.instagram.com/ruuu_hz/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-					</ul>
-				</footer>
+<head>
+	<title>Ryu</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body class="is-preload">
+
+	<!-- Header -->
+	<section id="header">
+		<header>
+			<span class="image avatar"><img src="images/profile3.jpg" alt="" /></span>
+			<h1 id="logo"><a href="#">Ryu</a></h1>
+			<p>One must live the way one thinks<br>
+				or end up thinking the way one has lived</p>
+		</header>
+		<nav id="nav">
+			<ul>
+				<li><a href="#one" class="active">Hello</a></li>
+				<li><a href="#two">Interests</a></li>
+				<li><a href="#three">Works</a></li>
+				<li><a href="#four">Imagines</a></li>
+			</ul>
+		</nav>
+		<footer>
+			<ul class="icons">
+				<li><a href="https://github.com/ruhz3" class="icon brands fa-github"><span
+							class="label">Github</span></a></li>
+				<li><a href="https://hhlab.tistory.com/" class="icon solid fa-blog"><span class="label">Blog</span></a>
+				</li>
+				<li><a href="https://www.instagram.com/ruuu_hz/" class="icon brands fa-instagram"><span
+							class="label">Instagram</span></a></li>
+			</ul>
+		</footer>
+	</section>
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Main -->
+		<div id="main">
+
+			<!-- One -->
+			<section id="one">
+				<div class="image main" data-position="center">
+					<img src="images/banner3.jpg" alt="" />
+				</div>
+				<div class="container">
+					<header class="major">
+						<h2>Welcome!</h2>
+					</header>
+					<h4>Curious junior developer's portfolio.</h4>
+					<p> When I choose snacks at a convenience store, I like to try a new one.<br>
+						When I have lunch, I often go to a restaurant that I've never been to.<br>
+						I love to learn new skills and enjoy the process of trying and struggling.<br>
+						I am interested in solving inconveniences in my daily life or realizing what I only
+						imagined.<br>
+						I'd like to share my journey until I become a developer who can make what's in my head.</p>
+				</div>
 			</section>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+			<!-- Two -->
+			<section id="two">
+				<div class="container">
+					<h3>Interests</h3>
+					<ul class="feature-icons">
+						<li class="icon solid fa-code">App Programming</li>
+						<li class="icon solid fa-puzzle-piece">Math/Algorithms</li>
+						<li class="icon solid fa-eye">Computer Vision</li>
+						<li class="icon solid fa-brain">Machine Learning</li>
+						<li class="icon solid fa-database">Data Science</li>
+						<li class="icon solid fa-gamepad">Game Development</li>
+					</ul>
+					<table>
 
-				<!-- Main -->
-					<div id="main">
+					</table>
+				</div>
+			</section>
 
-						<!-- One -->
-							<section id="one">
-								<div class="image main" data-position="center">
-									<img src="images/banner3.jpg" alt="" />
-								</div>
-								<div class="container">
-									<header class="major">
-										<h2>Welcome!</h2>
-									</header>
-									<h4>Curious junior developer's portfolio.</h4>
-									<p> When I choose snacks at a convenience store, I like to try a new one.<br>
-										When I have lunch, I often go to a restaurant that I've never been to.<br>
-										I love to learn new skills and enjoy the process of trying and struggling.<br>
-										I am interested in solving inconveniences in my daily life or realizing what I only imagined.<br>
-										I'd like to share my journey until I become a developer who can make what's in my head.</p>
-								</div>
-							</section>
+			<!-- Three -->
+			<section id="three">
+				<div class="container">
+					<h3>Works</h3>
+					<div class="features">
+						<article>
+							<a href="https://github.com/ruhz3/crime-predict" class="image"><img src="images/crime.png"
+									alt="" /></a>
+							<div class="inner">
+								<h4>Crime Prediction and Patrol Algorithm</h4>
+								<h6 style="color:#4acaa8;">Sci-kit learn, MySQL, Python, Naver Map API</h6>
+								<p>Crime, environment and local data are put into the database after preprocessing.
+									Using machine learning, find crime prone places. Based on this points, compute a
+									patrol route that minimizes the initial action time.</p>
+								<h6 style="text-align:right;">Capstone Design, (김동연, 류형주, 김영서), 2021</h6>
+							</div>
+						</article>
+						<article>
+							<a class="image"><img src="images/rl.png"
+									title="Can't show details, because of Security Pledge." /></a>
+							<div class="inner">
+								<h4>Heirarchical RL Models</h4>
+								<h6 style="color:#4acaa8;">Tensorflow, Keras, Python, Socket<br></h6>
+								<p>I made a model that avoids obstacles and terrain in the shortest path, in large map.
+									Upper AI finds the route roughly and sends a coordinate to Lower AI. Lower AI
+									manages the agent in detail.</p>
+								<h6 style="text-align:right;">National Project, RiseGroup, 2020</h6>
+							</div>
+						</article>
 
-						<!-- Two -->
-							<section id="two">
-								<div class="container">
-									<h3>Interests</h3>
-									<ul class="feature-icons">
-										<li class="icon solid fa-code">App Programming</li>
-										<li class="icon solid fa-puzzle-piece">Math/Algorithms</li>
-										<li class="icon solid fa-eye">Computer Vision</li>
-										<li class="icon solid fa-brain">Machine Learning</li>
-										<li class="icon solid fa-database">Data Science</li>
-										<li class="icon solid fa-gamepad">Game Development</li>	
-									</ul>
-									<table>
-										
-									</table>
-								</div>
-							</section>
+						<article>
+							<a href="https://github.com/grootnam/mme-info" class="image"><img src="images/web.jpg"
+									alt="" /></a>
+							<div class="inner">
+								<h4>Hybrid Web Application 'ALIMME'</h4>
+								<h6 style="color:#4acaa8;">HTML5, CSS, JavaScript, jQueryMobile, Cordova, Firebase</h6>
+								<p>Student council submits the notice to admin-page. Then, all the 'ALIMME' users can
+									see it through board and event-calendar with push-alarm option. Also students can
+									use Q&A menu, so that they can get info actively.</p>
+								<h6 style="text-align:right;">Capstone Design, (김근남, 류형주, 이영주, 류영석), 2021</h6>
+							</div>
+						</article>
+						<article>
+							<a href="https://github.com/ruhz3/survival-game" class="image"><img src="images/unity3d.jpg"
+									alt="" /></a>
+							<div class="inner">
+								<h4>Survival Shooting Game</h4>
+								<h6 style="color:#4acaa8;">Unity3D, C#</h6>
+								<p>This game is a 3D bullet shooting loglike survival game. The map is given in random
+									5x5 structure. Player must gather the resources to survive among the enemy that gets
+									more and more powerful.</p>
+								<h6 style="text-align:right;">3D Script Programming, (김근남, 류형주, 윤성재), 2020</h6>
+							</div>
+						</article>
+						<article>
+							<a href="https://github.com/ruhz3/rbpi-ttt" class="image"><img src="images/rasp2.png"
+									alt="" /></a>
+							<div class="inner">
+								<h4>Online Tic-Tac-Toe, Raspberry Pi</h4>
+								<h6 style="color:#4acaa8;">Linux, C/C++, Qt, Socket</h6>
+								<p>It's an simple Tic-Tac-Toe game that you can play between two raspberry pi. If one
+									person makes a room, the other participates in the room. Scores are saved and reset
+									when the game is abandoned.</p>
+								<h6 style="text-align:right;">Embedded Programming, (류형주, 양종성), 2020</h6>
+							</div>
+						</article>
+						<article>
+							<a href="https://www.youtube.com/watch?v=CsRGMtq3jrE" class="image"><img
+									src="images/raytracing.jpg" alt="" /></a>
+							<div class="inner">
+								<h4>CUDA Ray-Tracing</h4>
+								<h6 style="color:#4acaa8;">OpenGL, C/C++, CUDA<br></h6>
+								<p>A method that renders reflected scenes on object surface. Shooting a ray at a point
+									of view, tracks the object that hit the ray and blends the color. It is designed to
+									use GPU by CUDA and I compared performance with CPU.</p>
+								<h6 style="text-align:right;">Parallel Programming, (윤성재, 류형주), 2020</h6>
+							</div>
+						</article>
+					</div>
+				</div>
+			</section>
 
-						<!-- Three -->
-							<section id="three">
-								<div class="container">
-									<h3>Works</h3>
-									<div class="features">
-										<article>
-											<a href="#" class="image"><img src="images/rl.png" alt="" /></a>
-											<div class="inner">
-												<h4>Heirarchical RL Models</h4>
-												<h6 style="color:#4acaa8;">Tensorflow, Keras, Python, Socket<br></h6>
-												<p>I made a model that avoids obstacles and terrain in the shortest path, in large map. Upper AI finds the route roughly and sends a coordinate to Lower AI. Lower AI manages the agent in detail.</p>
-												<h6 style="text-align:right;">National Project, RiseGroup, 2020</h6>
-											</div>
-										</article>
-										<article>
-											<a href="https://github.com/ruhz3/crime-predict" class="image"><img src="images/crime.png" alt="" /></a>
-											<div class="inner">
-												<h4>Crime Prediction and Patrol Algorithm</h4>
-												<h6 style="color:#4acaa8;">Sci-kit learn, MySQL, Python, Naver Map API</h6>
-												<p>Crime, environment and local data are put into the database after preprocessing. Using machine learning, find crime prone places. Based on this points, compute a patrol route that minimizes the initial action time.</p>
-												<h6 style="text-align:right;">Capstone Design, (김동연, 류형주, 김영서), 2021</h6>
-											</div>
-										</article>
-										<article>
-											<a href="" class="image"><img src="images/web.png" alt="" /></a>
-											<div class="inner">
-												<h4>Student's Work Exhibition Website</h4>
-												<h6 style="color:#4acaa8;">HTML5, CSS, JavaScript, JQuery</h6>
-												<p>University department's official website provides too typical information. Therefore, we created a website that allows foreigner to get closer to what students actually study. </p>
-												<h6 style="text-align:right;">Capstone Design, (김근남, 류형주, 이영주, 류영석), 2021</h6>
-											</div>
-										</article>
-										<article>
-											<a href="https://www.youtube.com/watch?v=CsRGMtq3jrE" class="image"><img src="images/raytracing.jpg" alt="" /></a>
-											<div class="inner">
-												<h4>CUDA Ray-Tracing</h4>
-												<h6 style="color:#4acaa8;">OpenGL, C/C++, CUDA<br></h6>
-												<p>A method that renders reflected scenes on object surface. Shooting a ray at a point of view, tracks the object that hit the ray and blends the color. It is designed to use GPU by CUDA and I compared performance with CPU.</p>
-												<h6 style="text-align:right;">Parallel Programming, (윤성재, 류형주), 2020</h6>
-											</div>
-										</article>
-										<article>
-											<a href="https://github.com/ruhz3/survival-game" class="image"><img src="images/unity3d.jpg" alt="" /></a>
-											<div class="inner">
-												<h4>Survival Shooting Game</h4>
-												<h6 style="color:#4acaa8;">Unity3D, C#</h6>
-												<p>This game is a 3D bullet shooting loglike survival game. The map is given in random 5x5 structure. Player must gather the resources to survive among the enemy that gets more and more powerful.</p>
-												<h6 style="text-align:right;">3D Script Programming, (김근남, 류형주, 윤성재), 2020</h6>
-											</div>
-										</article>
-										<article>
-											<a href="https://github.com/ruhz3/rbpi-ttt" class="image"><img src="images/rasp2.png" alt="" /></a>
-											<div class="inner">
-												<h4>Online Tic-Tac-Toe, Raspberry Pi</h4>
-												<h6 style="color:#4acaa8;">Linux, C/C++, Qt, Socket</h6>
-												<p>It's an simple Tic-Tac-Toe game that you can play between two raspberry pi. If one person makes a room, the other participates in the room. Scores are saved and reset when the game is abandoned.</p>
-												<h6 style="text-align:right;">Embedded Programming, (류형주, 양종성), 2020</h6>
-											</div>
-										</article>
-									</div>
-								</div>
-							</section>
+			<!-- Four -->
+			<section id="four">
+				<div class="container">
+					<h3>Imagines</h3>
+					<div class="features">
+						<article>
+							<h4>Voice Recognition "The Magic Conch"</h4>
+							<p>Android application. When people hesitate, magic conch will provide the right answer.</p>
+						</article>
+						<article>
+							<h4>Funeral Platform</h4>
+							<p>Kiosk stands at the entrance of funeral hall. Visiter logins, and put the money in.
+								Platform records it.</p>
+						</article>
+					</div>
+				</div>
+			</section>
 
-						<!-- Four -->
-							<section id="four">
-								<div class="container">
-									<h3>Imagines</h3>
-									<div class="features">
-										<article>
-											<h4>Voice Recognition "The Magic Conch"</h4>
-											<p>Android application. When people hesitate, magic conch will provide the right answer.</p>
-										</article>
-										<article>
-											<h4>Funeral Platform</h4>
-											<p>Kiosk stands at the entrance of funeral hall. Visiter logins, and put the money in. Platform records it.</p>
-										</article>
-									</div>
-								</div>
-							</section>
-
-						<!-- Five -->
-						<!--
+			<!-- Five -->
+			<!--
 							<section id="five">
 								<div class="container">
 									<h3>Elements</h3>
@@ -491,27 +517,29 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 							</section>
 						-->
 
-					</div>
+		</div>
 
-				<!-- Footer -->
-					<section id="footer">
-						<div class="container">
-							<ul class="copyright">
-								<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-							</ul>
-						</div>
-					</section>
-
+		<!-- Footer -->
+		<section id="footer">
+			<div class="container">
+				<ul class="copyright">
+					<li>&copy; Untitled. All rights reserved.</li>
+					<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+				</ul>
 			</div>
+		</section>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+	</div>
 
-	</body>
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
