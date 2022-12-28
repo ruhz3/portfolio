@@ -1,0 +1,58 @@
+.collapsible {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+}
+.content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.active {
+  border-bottom: solid 1px;
+}
+
+.progress {
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.bar {
+  height: 100%;
+  background-color: #990000;
+  padding-left: 10px;
+  color: white;
+}
+.w10 {
+  width: 10%;
+}
+.w15 {
+  width: 15%;
+}
+.w20 {
+  width: 20%;
+}
+.w25 {
+  width: 25%;
+}
+.w30 {
+  width: 30%;
+}
+.w40 {
+  width: 40%;
+}
+.w50 {
+  width: 50%;
+}
+.w60 {
+  width: 60%;
+}
+.w80 {
+  width: 80%;
+}
+.w100 {
+  width: 100%;
+}
