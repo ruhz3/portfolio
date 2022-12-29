@@ -6,7 +6,7 @@
 -->
 <html>
   <head>
-    <title>Massively by HTML5 UP</title>
+    <title>hyungju.ryu</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
@@ -58,7 +58,7 @@
           </h1>
           <h2 style="margin-bottom: 3rem">My techinical level</h2>
           <!--Data Engineer-->
-          <h3 class="collapsible" onclick="collapse(this)">
+          <h3 id="f" class="collapsible" onclick="collapse(this)">
             <a class="icon solid fa-folder-open" style="margin-right: 3px"></a> Data Engineer
           </h3>
           <div class="content">
@@ -204,11 +204,45 @@
             <a href="#">Portfolio</a>
           </h1>
           <h2>My personal journey</h2>
-          <h3>Ahnlab</h3>
-          안녕하세요,
+          <div style="padding: 2rem">
+            <h3><strong>Ahnlab</strong> <sub>안랩</sub></h3>
+            <code>2022.10 ~</code>
+            <ul>
+              <li>인공지능팀, 데이터 엔지니어</li>
+              <li>파이썬, 스칼라 MSA 서비스 개발</li>
+            </ul>
+          </div>
+          <div style="padding: 2rem">
+            <h3><strong>SSAFY</strong> <sub>삼성 청년 SW 아카데미</sub></h3>
+            <code>2022.01 ~ 2022.10</code>
+            <ul>
+              <li>SSAFY 7기 서울 Java 전공자 트랙</li>
+              <li>Spring, Vue.js 기반 웹 프로젝트 진행</li>
+            </ul>
+          </div>
+          <div style="padding: 2rem">
+            <h3><strong>HANCOM</strong> <sub>한컴위드 인턴</sub></h3>
+            <code>2021.07 ~ 2021.12</code>
+            <ul>
+              <li>골드모어 내역관리 프로그램 개발</li>
+              <li>블록체인 플랫폼 설치 및 관련 세미나 진행</li>
+              <li>사업팀 업무 개선 자동화 모듈 개발</li>
+              <li>QA, 기술조사 등</li>
+            </ul>
+          </div>
+          <div style="padding: 2rem">
+            <h3><strong>Univ</strong> <sub>전공</sub></h3>
+            <code>2016.03 ~ 2022.02</code>
+            <ul>
+              <li>동국대학교 멀티미디어공학 전공</li>
+              <li>소프트웨어 전공, 컴퓨터 비전, 게임 등</li>
+              <li>국책 프로젝트 강화학습 학부생 연구원</li>
+            </ul>
+          </div>
         </article>
 
         <!-- Posts -->
+        <!--
         <section class="posts">
           <article>
             <header>
@@ -325,73 +359,20 @@
             </ul>
           </article>
         </section>
-
-        <!-- Footer -->
-        <footer>
-          <div class="pagination">
-            <!--<a href="#" class="previous">Prev</a>-->
-            <a href="#" class="page active">1</a>
-            <a href="#" class="page">2</a>
-            <a href="#" class="page">3</a>
-            <span class="extra">&hellip;</span>
-            <a href="#" class="page">8</a>
-            <a href="#" class="page">9</a>
-            <a href="#" class="page">10</a>
-            <a href="#" class="next">Next</a>
-          </div>
-        </footer>
+        -->
       </div>
 
       <!-- Footer -->
       <footer id="footer">
-        <section>
-          <form method="post" action="#">
-            <div class="fields">
-              <div class="field">
-                <label for="name">Name</label>
-                <input type="text" name="name" id="name" />
-              </div>
-              <div class="field">
-                <label for="email">Email</label>
-                <input type="text" name="email" id="email" />
-              </div>
-              <div class="field">
-                <label for="message">Message</label>
-                <textarea name="message" id="message" rows="3"></textarea>
-              </div>
-            </div>
-            <ul class="actions">
-              <li><input type="submit" value="Send Message" /></li>
-            </ul>
-          </form>
-        </section>
         <section class="split contact">
           <section class="alt">
-            <h3>Address</h3>
-            <p>
-              1234 Somewhere Road #87257<br />
-              Nashville, TN 00000-0000
-            </p>
+            <p>생각한대로 살지 않으면, 사는 대로 생각하게 된다.</p>
           </section>
           <section>
-            <h3>Phone</h3>
-            <p><a href="#">(000) 000-0000</a></p>
-          </section>
-          <section>
-            <h3>Email</h3>
-            <p><a href="#">info@untitled.tld</a></p>
-          </section>
-          <section>
-            <h3>Social</h3>
             <ul class="icons alt">
               <li>
-                <a href="#" class="icon brands alt fa-twitter"
+                <a href="#" class="icon brands alt fa-blogger"
                   ><span class="label">Twitter</span></a
-                >
-              </li>
-              <li>
-                <a href="#" class="icon brands alt fa-facebook-f"
-                  ><span class="label">Facebook</span></a
                 >
               </li>
               <li>
@@ -425,5 +406,9 @@
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/collapse.js"></script>
+    <script>
+      var f = document.getElementById("f");
+      collapse(f);
+    </script>
   </body>
 </html>
